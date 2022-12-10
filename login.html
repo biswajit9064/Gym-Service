@@ -5,27 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="login.css">
+    
     <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="container">
-        <div class="forms">
-            <div class="form login">
-                <span class="title">Login</span>
-                <form action="#">
-                    <div class="input-filed">
-                        <input type="text" placeholder="Enter your email" required>
-                    </div>
-                    <div class="input-filed">
-                        <input type="password" placeholder="Enter your password" required>
-                    </div>
-                    
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
 
-                </form>
             </div>
+            <div class="social-icon">
+                <img src="facebook.png">
+                <img src="twitter.png">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">login</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the trems & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        
+          
         </div>
+       
     </div>
+    <script>
+        var x=document.getElementById("login");
+        
+        var y=document.getElementById("register");
+        var z=document.getElementById("btn");
+        function register(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+          
+        }
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+          
+        }
+    </script>
     
 </body>
 </html>
