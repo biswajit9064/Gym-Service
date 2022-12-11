@@ -24,7 +24,7 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20px;
-    background:wheat
+    background:black
     
     
 }
@@ -64,6 +64,7 @@ button{
 button:hover{
     transform: scale(1.3);
     cursor: pointer;
+    color: black;
 }
 /*sticky navbar*/
 .sticky{
@@ -148,12 +149,13 @@ button:hover{
 .section-hero1,
 .section-services{
     padding: 9.6rem 0;
-    background-color: #f6f604;
+    background-color: black;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid white;
+    color: white;
 }
 .section-services{
     background-color: antiquewhite;
