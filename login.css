@@ -45,9 +45,9 @@
     position: absolute;
     width: 50%;
     height: 35px;
-    background: linear-gradient(to right, #ff105f,#ffab06);
+    background: linear-gradient(to right, #0000,#f6f604);
     border-radius: 30px;
-    transition: 5s;
+    transition: 1s;
 }
 .social-icon{
     margin: 30px auto;
@@ -84,7 +84,7 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #ff105f,#ffab06);
+    background: #f6f604;
     border: 0;
     outline: none;
     border-radius: 30px;

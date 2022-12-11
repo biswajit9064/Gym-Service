@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.content{
+    max-width: 1250px;
+}
+.navbar{
+    background: black;
+}
+.navbar .logo a{
+    color: white;
+}
+span{
+    color: #f6f604;
+}
+.menu-list li a{
+    color: white;
+}
