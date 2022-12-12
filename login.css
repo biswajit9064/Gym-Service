@@ -23,6 +23,7 @@
     background: #fff;
     padding: 5px;
     overflow: hidden;
+    border-radius: 5px;
 }
 .button-box{
     width: 220px;
