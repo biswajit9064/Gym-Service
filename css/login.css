@@ -5,25 +5,25 @@
     font-family:sans-serif;
 }
 .hero{
-    height: 100hv;
+    height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./gym-reopening.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/gym_image/Featured.jpg");
   
     background-position: center;
     background-size: cover;
     position: absolute;
 
 }
-
 .form-box{
     width: 380px;
     height: 480px;
     position: relative;
     margin: 6% auto;
-    background: #fff;
+    background: #f5edd7;
     padding: 5px;
     overflow: hidden;
     border-radius: 5px;
+
 }
 .button-box{
     width: 220px;
@@ -51,15 +51,15 @@
     transition: 1s;
 }
 .social-icon{
-    margin: 30px auto;
+    /* margin: 30px auto; */
     text-align: center;
 }
 .social-icon img{
     width: 30px;
     margin: 0 12px;
-    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    /* box-shadow: 0 0 20px 0 #7f7f7f3d; */
     cursor: pointer;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .input-group{
     top: 180px;
