@@ -107,7 +107,7 @@ button:hover{
     z-index: 99;
     height: 100%;
     width: 150px;
-    background-image: linear-gradient(90deg, black, transparent );
+    background-image: linear-gradient(90deg, blue, transparent );
 }
 .cover::after{
     position: absolute;
@@ -149,7 +149,7 @@ button:hover{
 .section-hero1,
 .section-services{
     padding: 9.6rem 0;
-    background-color: black;
+    background-color:blueviolet;
     height: 80vh;
     display: flex;
     justify-content: center;
