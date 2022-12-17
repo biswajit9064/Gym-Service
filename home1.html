@@ -6,74 +6,295 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym Home Page</title>
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
 </head>
 <body>
-    <header class="sticky">
-    <div class="hero">
+    <!-- header -->
+    <header class="header">
+
+        <a href="#" class="logo"> <span>FLEX</span>GyM</a>
+    
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
         <nav class="navbar">
-            <h2 class="logo">FLEX <span>GyM</span></h2>
-            <ul class="navbar-list">
-                <li><a class="navbar-link" href="#">Home</a></li>
-                <li><a class="navbar-link" href="#services_3">About</a></li>
-                <li><a class="navbar-link" href="">Service</a></li>
-                <li><a class="navbar-link" href="#">Contact us</a></li>
-            </ul>
-          
-            <button type="button" onclick="window.location='login.html';">Sign out</button>
-            <button type="button">Membership</button>
-            
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#features">features</a>
+            <a href="#trainers">trainers</a>
+            <a href="#contact">contact</a>
+            <button type="submit" onclick="window.location='login.html';">sign out</button>
+            <button type="submit" onclick="window.location='plan.html';">Membership</button>
         </nav>
-    </div>    
+    
     </header>
-        <div class="mobile-navbar-btn">
-            <ico-icon name="manu-outline" class="mobile-nav-icon"></ico-icon>
-            <ico-icon name="manu-outline" class="mobile-nav-icon"></ico-icon>
+
+    <!-- Home -->
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide slide" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>be strong, be fit</span>
+                        <h3>Make yourself stronger than your excuses.</h3>
+                        <!-- <a href="#" class="btn">get started</a> -->
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>be strong, be fit</span>
+                        <h3>Make yourself stronger than your excuses</h3>
+                        
+                        <!-- <a href="#" class="btn">get started</a> -->
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>be strong, be fit</span>
+                        <h3>Make yourself stronger than your excuses.</h3>
+                        <!-- <a href="#" class="btn">get started</a> -->
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+    
         </div>
+    
+    </section>
+
+<!-- About Section -->
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="images/blog-4.jpg" alt="">
+        </div>
+    
+        <div class="content">
+            <span>about us</span>
+            <h3 class="title">Every day is a chance to become better</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quia accusamus dicta inventore nobis obcaecati vero odio, id dolorum. Consequatur ex, aperiam deserunt nostrum perferendis illum unde ipsa? Consequatur, distinctio?</p>
+            <div class="box-container">
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>body and mind</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, enim.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>healthy life</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, enim.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>strategies</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, enim.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>workout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, enim.</p>
+                </div>
+            </div>
+            <a href="#" class="btn">read more</a>
+        </div>
+    
+    </section>
+<!-- End About section -->
+    <!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> <span>gym features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/f-img-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="images/icon-1.png" alt="">
+                <h3>body building</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, atque.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box second">
+            <div class="image">
+                <img src="images/f-img-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="images/icon-2.png" alt="">
+                <h3>gym for men</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, atque.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/f-img-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="images/icon-3.png" alt="">
+                <h3>gym for women</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, atque.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
     </div>
-    
-        <section class="section-hero1" id="services_1">
-            <div class="hero1">
-                <p>Home Section</p>
-            </div>
-        </section>
-    
-    
-    <!-- <div class="main-scroll-div">
-        
-        <div class="cover">
-            <div class="scroll-image">
-                <div class="child"><img class="child-img" src="./p5.jpg" alt=""></div>
-                <div class="child"><img class="child-img" src="./p1.jpg" alt=""></div>
-                <div class="child"><img class="child-img" src="./p2.jpg" alt=""></div>
-                <div class="child"><img class="child-img" src="./p3.jpg" alt=""></div>
-                <div class="child"><img class="child-img" src="./p4.jpg" alt=""></div>
-                <div class="child"><img class="child-img" src="./p6.jpg" alt=""></div>
+
+</section>
+
+<!-- features section ends -->
+
+
+        <!-- trainers section starts  -->
+
+<section class="trainers" id="trainers">
+
+    <h1 class="heading"> <span>expert trainers</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="trainnerphoto/bishal.jpeg" alt="">
+            <div class="content">
+                <span>expert trainer</span>
+                <h3>Bishal Mondal</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
             </div>
         </div>
-    
-    </div> -->
-    
-        <section class="section-hero1" id="services_2">
-            <div class="hero1">
-                <p>Services Section</p>
+
+        <div class="box">
+            <img src="trainnerphoto/biswa.jpeg" alt="">
+            <div class="content">
+                <span>Weight Gain Trainner</span>
+                <h3>Biswajit Mondal</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
             </div>
-        </section>
-    
-    
-        <section class="section-hero1"id="services_3">
-            <div class="hero1">
-                <p>About Section</p>
+        </div>
+
+        <div class="box">
+            <img src="trainnerphoto/WhatsApp Image 2022-12-17 at 12.17.20.jpeg" alt="">
+            <div class="content">
+                <span>Cardio Trainner</span>
+                <h3>Swapnojeet Ghosh</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
             </div>
-        </section>
+        </div>
+
+      
+    </div>
+
+</section>
+
+<!-- trainers section ends -->
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <span>join us now</span>
+    <h3>get upto 50% discount</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat architecto nesciunt aut sapiente quis inventore quam vitae quod illum incidunt.</p>
+    <a href="#" class="btn">get discount</a>
+
+</section>
+
+<!-- banner section ends -->
+<!-- footer section starts  -->
+
+<section class="footer" id="contact">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="links" href="#home">home</a>
+            <a class="links" href="#about">about</a>
+            <a class="links" href="#trainers">trainers</a>
+          
+        </div>
+
+        <div class="box">
+            <h3>opening hours</h3>
+            <p> monday : <i> 7:00am - 10:30pm </i> </p>
+            <p> tuesday : <i> 7:00am - 10:30pm </i> </p>
+            <p> wednesday : <i> 7:00am - 10:30pm </i> </p>
+            <p> friday : <i> 7:00am - 10:30pm </i> </p>
+            <p> saturday : <i> 7:00am - 10:30pm </i> </p>
+            <p> sunday : <i> closed </i> </p>
+        </div>
+
+        <div class="box">
+            <h3>opening hours</h3>
+            <p> <i class="fas fa-phone"></i> 9874713473 </p>
+            <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
+            <p> <i class="fas fa-envelope"></i> flexgym89@gmail.com </p>
+            <p> <i class="fas fa-map"></i> Barasat, india - 700126 </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" class="email" placeholder="enter your email" id="">
+                <input type="submit" value="submit" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="credit"> created by <span>BBS Group</span> | all rights reserved! </div>
+
+<!-- footer section ends -->  
+    
+        
     
     
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script>
-      
-    </script>
 
- 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./js/script.js"></script>
 
 
    
